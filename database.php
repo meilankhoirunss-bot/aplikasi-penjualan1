@@ -2,10 +2,10 @@
 // config/database.php
 
 $host = ' localhost ' ;
-$user = ' root ' ;
-$pass = ' ' ;
-$db = 'penjualan' ;
+$username = ' root ' ;
+$password = '' ;
+$dbname = 'penjualan' ;
 
 // inisialisasi koneksi dengan MySQLi secara object oriented
-$koneksi = new mysqli($host, $user, $pass $db);
+$koneksi = new mysqli($host, $username, $password, $dbname);
 ?>
